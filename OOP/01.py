@@ -37,8 +37,6 @@ print (xiaoxin.course)
 # 注意成员函数的调用没有传递进入的参数 (self)
 
 
-#
-
 
 
 
