@@ -1,0 +1,10 @@
+DEBUG:root:一条严重级别为 debug 的日志记录
+INFO:root:一条严重级别为 info 的日志记录
+WARNING:root:一条严重级别为 warning 的日志记录
+ERROR:root:一条严重级别为 error 的日志记录
+CRITICAL:root:一条严重级别为 critical 的日志记录
+DEBUG:root:一条严重级别为 debug 的日志记录
+INFO:root:一条严重级别为 info 的日志记录
+WARNING:root:一条严重级别为 warning 的日志记录
+ERROR:root:一条严重级别为 error 的日志记录
+CRITICAL:root:一条严重级别为 critical 的日志记录
