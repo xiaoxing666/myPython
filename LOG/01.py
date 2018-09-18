@@ -22,4 +22,3 @@ logging.log(logging.INFO,'一条严重级别为 info 的日志记录')
 logging.log(logging.WARNING,'一条严重级别为 warning 的日志记录')
 logging.log(logging.ERROR,'一条严重级别为 error 的日志记录')
 logging.log(logging.CRITICAL,'一条严重级别为 critical 的日志记录')
-
