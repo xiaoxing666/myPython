@@ -79,9 +79,32 @@
         - 主要解决递归调用的时候,需要申请锁的情况
         - 17.py
     
+# 线程替代方案
+- subprocess
+    - 完全跳过线程,使用进程
+    - 是派生进程的主要替代方案
+    - python 2.4后引入
+- multiprocessing
+    - 使用 threading 接口派生,使用子进程
+    - 允许为多核或者多 cpu 派生进程,接口跟 threading 非常相似
+    - python 2.6 引入
+- concurrent.futures
+    - 新的异步执行模块
+    - 任务级别的操作
+    - python 3.2 后引入
+# 多进程
+- 进程间通讯(InterprocessCommunication,IPC)
+- 进程之间无任何共享状态
+- 进程的创建
+    - 直接生成 Process 实例对象 18.py
+    - 派生用法    19.py
     
-    
-    
+- 在OS中查看 pid, ppid 以及他们的关系(process id,parent process id)
+    - 20.py
+- 生产者消费者模型
+    - JoinableQueue
+    - 21.py 
+    - 队列中哨兵的使用 22.py
     
     
     
